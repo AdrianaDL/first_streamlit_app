@@ -34,6 +34,6 @@ fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" +fruit_ch
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 #Mostrando la versión de json en la pantalla en forma de tabla
 
-#conection
+#conexion
 import snowflake.connector
 
